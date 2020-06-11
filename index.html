@@ -1,0 +1,107 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyDog</title>
+    <link rel="icon" href="images\paw.jpg"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css\style.css" />
+</head>
+
+<body>
+    <div id="top">
+        <div class="topnav">
+            <a class="logo" href="#"><img src="images\logo.jpg" width="50px"/>MyDog</a>
+            <ul>
+                <a class="active" href="index.html">Home</a>
+                <a href="gallery.html" target="_parent">Gallery</a>
+                <div class="drop">
+                    <button class="dropbtn">Dog Names</button>
+                    <div class="drop-content">
+                        <a href="tdmn.html">Top Male Dog Names</a>
+                        <a href="tdfn.html">Top Female Dog Names</a>
+                        <a href="tdn.html">Tough Dog Names</a>
+
+                    </div>
+                </div>
+                <div class="drop">
+                    <button class="dropbtn">Life With Dogs</button>
+                    <div class="drop-content">
+                        <a href="saftey.html">Saftey</a>
+                        <a href="behavior.html">Behavior</a>
+                        <a href="health.html">Health and Wellness</a>
+                    </div>
+                </div>
+                <a href="about.html">About</a>
+            </ul>
+        </div>
+
+    </div>
+    <h1 align="center">WELCOME TO MyDog&nbsp<img src="images\paw.jpg" alt="" width="50px"/></h1>
+    <p align="justify">Hi, My name is Mariamawit and I own a dog named Snow! He brings so much
+        joy into my life and helps me not to be so bored anymore. Snow keeps me so busy and is a great way for me
+        to stop thinking about food all the time and do something fun. I used to feel so lonely and bored and I
+        think I ate just because I was bored, not because I was hungry&#129315. But now, Im too busy to eat! I get
+        lots more
+        exercise with Snow &#128525 When Snow was a pup, he was so shy and conservative.Now Snow is all grown up.
+        I make sure Snow goes for walks and that's a great way to make sure that I go
+        for walks too. So, we both win! Snow gets exercise and so do I. Because Snow needs exercise everyday, I
+        get good exercise too.
+
+        Having Snow makes me feel needed and loved. &#129392 I would recommend getting a pet if you are lonely or bored.
+        A
+        pet can fill up your day with lots of activity and keeps you more healthy by exercising more. I feel better
+        now that I get more exercise and I'm just happier. I don't think about loosing weight, I think about getting
+        exercise, being more healthy and enjoying my new friend. </p>
+    <div class="container">
+        <div class="slide" style="max-width:400px">
+            <img class="mySlides animate-top" src="images\snow (14).jpg" style="width:100%">
+            <img class="mySlides animate-bottom" src="images\snow (15).jpg" style="width:100%">
+            <img class="mySlides animate-top" src="images\snow (16).jpg" style="width:100%">
+            <img class="mySlides animate-bottom" src="images\snow (17).jpg" style="width:100%">
+        </div>
+        <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) { myIndex = 1 }
+                x[myIndex - 1].style.display = "block";
+                setTimeout(carousel, 2500);
+            }
+        </script>
+    </div>
+    <p align="justify">At <b>MyDog,</b> we want you to live your dream with your dog. That means empowering you to communicate
+        with your dog in a new way, a way that answers your dog’s questions. Once you can communicate, your dog’s
+        unwanted behavior will change. Our mission is to promote the successful Lisa Rockland Method of training
+        with its focus on balance, calmness, honor and fun. We also offer health and wellness tips for the
+        complete dog as well as list of unique names for your pet is available here.</p>
+        <div id="btm">
+            <img src="images\logo.jpg" width="50px" style="float:left" />
+            <p align="left">
+                MyDog
+            </p>
+    
+            <p> Contact us:<br><i class="fa fa-phone">&nbsp+251921237319</i><br>
+                <i class="fa fa-envelope">&nbspmariya2k21@gmail.com</i><br>
+            </p>
+    
+            <p>&copy; All rights reserved</p>
+        </div>
+    
+    
+    </div>
+
+
+
+    
+</body>
+
+</html>
